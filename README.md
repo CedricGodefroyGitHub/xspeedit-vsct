@@ -58,7 +58,7 @@ Présentation fonctionnelle des services
 
 *TriBasique* 
 
-Ce service REST permet de retourner les articles donnés selon un tri basique :
+Ce service REST permet d'organiser les articles donnés selon un tri basique :
 - Les articles sont placés un par un dans un carton
 - Si l'article ne rentre pas, on passe au carton suivant.
 
@@ -70,7 +70,7 @@ URL du service GET TriBasique : {{host}}/TriBasique/{articles}
 
 *TriOptimise*  
 
-Ce service REST permet de retourner les articles donnés selon un tri optimisé :
+Ce service REST permet d'organiser les articles donnés selon un tri optimisé :
 - On tri les articles par taille décroissante
 - On place le premier de la liste dans un carton
 - On sélectionne le plus grand article pouvant encore entrer et on le place dans le carton.
