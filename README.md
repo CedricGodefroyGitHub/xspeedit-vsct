@@ -48,7 +48,7 @@ Le second tri de manière optimisée les articles.
 
 Cette solution est réalisée à l'aide de Spring Boot (facilitant la création de micro-service REST).
 
-Les tests unitaires sont réalisés via JUnit et les tests d'intégration via PostMan.
+Les tests unitaires ont été réalisés via JUnit et les tests d'intégration via PostMan.
 
 La solution finale est déployée sur AWS mais peut aussi être executée en local.
 
@@ -103,7 +103,7 @@ http://xspeeditrestapp-env.gwamx5v7dz.us-east-2.elasticbeanstalk.com/TriBasique/
 Tri optimise :
 http://xspeeditrestapp-env.gwamx5v7dz.us-east-2.elasticbeanstalk.com/TriOptimise/163841689525773
 ```
-Dans l'éventualité d'un problème réseau, il est aussi possible d'executer localement la solution. Pour cela, il faut utiliser la commande suivante après avoir ouvert l'invite de commande dans le répertoire contenant le .jar de la solution :
+Dans l'éventualité d'un problème réseau, il est aussi possible d'executer localement la solution. Pour cela, il faut utiliser la commande suivante après avoir ouvert l'invite de commande dans le répertoire contenant le .jar de la solution (on peut générer le jar à partir des sources ou utiliser celui du zip contenant l'intégralité du projet) :
 
 ```
 java -jar .\xspeedit-0.0.1.jar
