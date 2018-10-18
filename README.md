@@ -40,11 +40,11 @@ Solution
 
 Choix technique
 --------
-Afin de permettre à la société Xspeedit de trier correctement ses cartons, il a été décidé de mettre en place deux services REST permettant chacun de trier les articles. Par la suite, cela permettra de facilement intégrer la solution aux différentes IHM de la société.
+Afin de permettre à la société Xspeedit de trier correctement ses articles, il a été décidé de mettre en place deux services REST. Par la suite, cela permettra de faciliter l'intégration de la solution aux différentes IHM de la société.
 
 Le premier service réalise le tri basique déjà en place.
 
-Le second tri de manière optimisée les articles.
+Le second service tri de manière optimisée les articles.
 
 Cette solution est réalisée à l'aide de Spring Boot (facilitant la création de micro-service REST).
 
